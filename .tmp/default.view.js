@@ -11,7 +11,7 @@ export * from '/home/patrick/code/github/lowcode-rgl-demo/src/index.tsx';
 const coveredComponents = {};
 
 const library = 'rgl-demo';
-const execCompile = !!false;
+const execCompile = !!true;
 
 if (!execCompile) {
   window[library] = Object.assign({__esModule: true}, componentInstances || {}, coveredComponents || {});
