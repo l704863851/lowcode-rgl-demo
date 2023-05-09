@@ -1,0 +1,11 @@
+.vscode
+.idea
+node_modules
+dist
+*.tgz
+.DS_Store
+pnpm-lock.yaml
+typedoc.d.ts
+yarn-error.log
+yarn.lock
+package-lock.json

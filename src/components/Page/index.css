@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* 临时添加，要修改到html下面， html增加id */
+
+.engine-document {
+  background-color: #f2f3f5;
+}
+
+html.engine-design-mode.engine-page {
+    background: transparent;
+}
