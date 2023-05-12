@@ -1,23 +1,22 @@
-import { ComponentMetadata, Snippet } from "@alilc/lowcode-types";
+import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
 
 const GridLayoutMeta: ComponentMetadata = {
-  componentName: "GridLayout",
-  title: "GridLayout",
-  docUrl: "",
-  screenshot: "",
-  devMode: "proCode",
+  componentName: 'GridLayout',
+  title: 'GridLayout',
+  docUrl: '',
+  screenshot: '',
+  devMode: 'proCode',
   configure: {
     props: [],
     component: {
       isContainer: true,
       nestingRule: {
-        descendantBlacklist: ["GridLayout"],
+        descendantBlacklist: ['GridLayout'],
       },
-      disableBehaviors: "*",
+      disableBehaviors: '*',
     },
     advanced: {
-      // isAbsoluteLayoutContainer: true,
-      callbacks: { onMoveHook: () => false },
+      callbacks: {},
     },
     supports: {
       loop: false,
@@ -27,10 +26,10 @@ const GridLayoutMeta: ComponentMetadata = {
 
 const snippets: Snippet[] = [
   {
-    title: "GridLayout",
-    screenshot: "",
+    title: 'GridLayout',
+    screenshot: '',
     schema: {
-      componentName: "GridLayout",
+      componentName: 'GridLayout',
       props: {},
     },
   },
